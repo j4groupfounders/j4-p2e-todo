@@ -1,6 +1,6 @@
 asgiref==3.12.1
 bleach==6.4.0
-Django==5.2.12
+Django==6.0.4
 django-autocomplete-light==5.0.0
 factory_boy==3.3.3
 Faker==40.41.0
