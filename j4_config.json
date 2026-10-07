@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "upstream": "shacker/django-todo",
+  "folder": "django-todo",
+  "settings": "test_settings",
+  "tests": "todo/tests",
+  "routes": [
+    "/lists/",
+    "/lists/mine/",
+    "/lists/search/",
+    "/lists/ticket/add/",
+    "/j4-missing"
+  ],
+  "id": "p2-13-todo",
+  "repo": "j4groupfounders/j4-p2e-todo",
+  "source": "95e3a022d239ebaa8771376c838a4d36590ab9b1"
+}
