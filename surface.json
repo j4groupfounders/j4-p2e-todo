@@ -1,0 +1,37 @@
+[
+  {
+    "route": "/lists/",
+    "status": 302,
+    "content_type": "text/html; charset=utf-8",
+    "location": "/accounts/login/?next=/lists/",
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "route": "/lists/mine/",
+    "status": 302,
+    "content_type": "text/html; charset=utf-8",
+    "location": "/accounts/login/?next=/lists/mine/",
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "route": "/lists/search/",
+    "status": 302,
+    "content_type": "text/html; charset=utf-8",
+    "location": "/accounts/login/?next=/lists/search/",
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "route": "/lists/ticket/add/",
+    "status": 302,
+    "content_type": "text/html; charset=utf-8",
+    "location": "/accounts/login/?next=/lists/ticket/add/",
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "route": "/j4-missing",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": null,
+    "body_sha256": "5547992afdadb59737c5c0feb1a35dff294cd27145bf290c031737ecf8a2577d"
+  }
+]

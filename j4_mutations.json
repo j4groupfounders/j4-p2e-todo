@@ -1,0 +1,32 @@
+[
+  {
+    "file": "todo/models.py",
+    "name": "default-completed",
+    "old": "completed = models.BooleanField(default=False)",
+    "new": "completed = models.BooleanField(default=True)"
+  },
+  {
+    "file": "todo/models.py",
+    "name": "task-title",
+    "old": "return self.title",
+    "new": "return \"wrong title\""
+  },
+  {
+    "file": "todo/models.py",
+    "name": "task-link",
+    "old": "return reverse(\"todo:task_detail\", kwargs={\"task_id\": self.id})",
+    "new": "return \"/wrong-task/\""
+  },
+  {
+    "file": "todo/models.py",
+    "name": "overdue-direction",
+    "old": "datetime.date.today() > self.due_date",
+    "new": "datetime.date.today() < self.due_date"
+  },
+  {
+    "file": "todo/models.py",
+    "name": "attachment-extension",
+    "old": "return extension",
+    "new": "return \".wrong\""
+  }
+]
